@@ -15,7 +15,7 @@ const urlsToCache = [
   '/assets/icons/icon-48x48.png',
   '/assets/icons/icon-512x512.png',
   '/assets/icons/icon-72x72.png',
-  '/assets/icons/icon-96x96.png',
+  '/assets/icons/icon-96x96.png'
 ];
 
 self.addEventListener('install', event => {
