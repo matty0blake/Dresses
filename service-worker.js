@@ -1,22 +1,23 @@
 const CACHE_NAME = 'dresses-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/index.css',
-  '/index.js',
-  '/db.json',
-  '/service-worker.js'// Add all necessary assets here
-  '/assets/fonts/NRT-Bd.tff',
-  '/assets/fonts/Rabar_22.tff',
-  '/assets/icons/icon-128x128.png',
-  '/assets/icons/icon-144x144.png',
-  '/assets/icons/icon-152x152.png',
-  '/assets/icons/icon-192x192.png',
-  '/assets/icons/icon-384x384.png',
-  '/assets/icons/icon-48x48.png',
-  '/assets/icons/icon-512x512.png',
-  '/assets/icons/icon-72x72.png',
-  '/assets/icons/icon-96x96.png'
+  '/Dresses/',
+  '/Dresses/index.html',
+  '/Dresses/index.css',
+  '/Dresses/index.js',
+  '/Dresses/db.json',
+  '/Dresses/service-worker.js',
+  '/Dresses/manifest.json',
+  '/Dresses/assets/fonts/NRT-Bd.tff',
+  '/Dresses/assets/fonts/Rabar_22.tff',
+  '/Dresses/assets/icons/icon-128x128.png',
+  '/Dresses/assets/icons/icon-144x144.png',
+  '/Dresses/assets/icons/icon-152x152.png',
+  '/Dresses/assets/icons/icon-192x192.png',
+  '/Dresses/assets/icons/icon-384x384.png',
+  '/Dresses/assets/icons/icon-48x48.png',
+  '/Dresses/assets/icons/icon-512x512.png',
+  '/Dresses/assets/icons/icon-72x72.png',
+  '/Dresses/assets/icons/icon-96x96.png'
 ];
 
 self.addEventListener('install', event => {
