@@ -4,7 +4,8 @@ const urlsToCache = [
   '/index.html',
   '/index.css',
   '/index.js',
-  '/db.json',  // Add all necessary assets here
+  '/db.json',
+  '/service-worker.js'// Add all necessary assets here
   '/assets/fonts/NRT-Bd.tff',
   '/assets/fonts/Rabar_22.tff',
   '/assets/icons/icon-128x128.png',
