@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./assets/icons/icon-128x128.png"
+        />
+        <link rel="manifest" href="manifest.json" />
+        <title>Dress Measures</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <nav>
+            <h3>ستایلەکان</h3>
+        </nav>
+
+        <div id="dress_type">
+            <div class="dress_types_options" value="azi" selected="true">
+                <p>عەزی</p>
+            </div>
+            <div class="dress_types_options" value="shan" selected="false">
+                <p>سەر شان</p>
+            </div>
+            <div class="dress_types_options" value="sar" selected="false">
+                <p>سەر سەر</p>
+            </div>
+        </div>
+
+        <div id="height_weight">
+            <input
+                id="weight"
+                type="text"
+                placeholder="کێش"
+                inputmode="numeric"
+                maxlength="3"
+                value=""
+            />
+            <input
+                id="height"
+                type="text"
+                placeholder="باڵا"
+                inputmode="numeric"
+                maxlength="3"
+                value=""
+            />
+        </div>
+        <button id="submittingBtn">ئەنجام</button>
+
+        <div id="outPut"></div>
+    </body>
+
+    <script src="index.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/serviceWorker.js')
+      .then(registration => {
+        console.log('Service Worker registered with scope:', registration.scope);
+      }, error => {
+        console.log('Service Worker registration failed:', error);
+      });
+  });
+}
+
+    </script>
+</html>
