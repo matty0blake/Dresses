@@ -4,8 +4,18 @@ const urlsToCache = [
   '/index.html',
   '/index.css',
   '/index.js',
-  '/assets/dress1.jpg',  // Add all necessary assets here
-  '/assets/dress2.jpg'
+  '/db.json',  // Add all necessary assets here
+  '/assets/fonts/NRT-Bd.tff',
+  '/assets/fonts/Rabar_22.tff',
+  '/assets/icons/icon-128x128.png',
+  '/assets/icons/icon-144x144.png',
+  '/assets/icons/icon-152x152.png',
+  '/assets/icons/icon-192x192.png',
+  '/assets/icons/icon-384x384.png',
+  '/assets/icons/icon-48x48.png',
+  '/assets/icons/icon-512x512.png',
+  '/assets/icons/icon-72x72.png',
+  '/assets/icons/icon-96x96.png',
 ];
 
 self.addEventListener('install', event => {
